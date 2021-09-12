@@ -1,11 +1,9 @@
 
-
-(() =>{
-    let miBoton = document.getElementById("miBoton")
+let miBoton = document.getElementById("miBoton")
 
     miBoton.addEventListener('click',() =>{
-        document.body.insertAdjacentHTML("beforeend","BEEP")
-        document.body.classList.toggle("color")
+        document.body.insertAdjacentHTML("beforeend","<p>BEEP</p>")
+       
     })
 
-},false);
+
