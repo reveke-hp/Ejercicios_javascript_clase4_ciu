@@ -1,0 +1,12 @@
+#gate {
+    cursor: pointer;
+    margin-bottom: 100px;
+    width: 83px;
+    height: 46px;
+  }
+  
+  #img {
+    cursor: pointer;
+    height: 100vh;
+    cursor: none;
+  }

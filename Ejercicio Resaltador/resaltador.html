@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight {
+        background-color: yellow
+}
+    </style>
+</head>
+<body>
+    <ul class="personas">
+        <li>Martin</li>
+        <li>Juan</li>
+        <li>Gomez</li>
+        <li>Ernesto</li>
+        <li>Pedro</li>
+    </ul>
+    <script>
+        var lis = document.querySelectorAll(".personas > li")
+            for(var i = 0; i < lis.length; i++){
+                lis[i].addEventListener("click", function(){
+                    this.style.color="red"
+                    this.classList.add("highlight")
+                })
+            }
+            for(var i = 0; i < lis.length; i++){
+                lis[i].addEventListener("dblclick", function(){
+                    this.style.color="black"
+                    this.classList.remove("highlight")
+                })
+            }
+    </script>
+ 
+</body>
+</html>

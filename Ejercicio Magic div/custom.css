@@ -1,0 +1,7 @@
+.magic{
+    display: block;
+}
+
+#magic:hover .magic{
+    display: none;
+}
